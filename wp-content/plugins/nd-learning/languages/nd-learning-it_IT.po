@@ -1,0 +1,1420 @@
+# Copyright (C) 2016 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ndshortcodes\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentyfifteen\n"
+"POT-Creation-Date: 2016-08-10 18:53+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-08-11 09:15+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_n_noop;esc_attr__;esc_html_x;_nx;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: nicdark <support@newgraphicses.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/booking/inc/admin/admin-settings.php:18
+msgid "Checkout Page"
+msgstr "pagina di Pagamento"
+
+#: addons/booking/inc/admin/admin-settings.php:36
+msgid "Select the page where you have added the shortcode [nd_learning_checkout]"
+msgstr "Selezionare la pagina in cui si è aggiunto il shortcode [nd_learning_checkout]"
+
+#: addons/booking/inc/admin/admin-settings.php:50
+msgid "Paypal Settings"
+msgstr "Impostazioni Paypal"
+
+#: addons/booking/inc/admin/admin-settings.php:67
+msgid "ND Learning Paypal Settings"
+msgstr "Impostazioni ND Learning Paypal"
+
+#: addons/booking/inc/admin/admin-settings.php:75
+msgid "Developer Mode"
+msgstr "Modalità sviluppatore"
+
+#: addons/booking/inc/admin/admin-settings.php:86
+msgid "Check to use paypal in developer mode , more information"
+msgstr "Controllare per usare paypal in modalità sviluppatore, ulteriori informazioni"
+
+#: addons/booking/inc/admin/admin-settings.php:86 addons/booking/inc/admin/admin-settings.php:102 addons/booking/inc/admin/admin-settings.php:129
+msgid "HERE"
+msgstr "QUI"
+
+#: addons/booking/inc/admin/admin-settings.php:91 addons/booking/index.php:201 addons/dashboard/include/free-orders.php:91 addons/dashboard/include/premium-orders.php:91
+#: inc/metabox/mtb-teachers.php:252 inc/shortcodes/nd-learning-account.php:89
+msgid "Email"
+msgstr "E-mail "
+
+#: addons/booking/inc/admin/admin-settings.php:94
+msgid "Insert your paypal email of your business account"
+msgstr "Inserisci la tua email paypal del vostro business account"
+
+#: addons/booking/inc/admin/admin-settings.php:99
+msgid "PDT identity token"
+msgstr "PDT token di identità"
+
+#: addons/booking/inc/admin/admin-settings.php:102
+msgid "Insert your PDT identity token , more information"
+msgstr "Inserire il PDT identità del token, ulteriori informazioni"
+
+#: addons/booking/inc/admin/admin-settings.php:102
+msgid "section Activating PDT"
+msgstr "sezione Attivazione PDT"
+
+#: addons/booking/inc/admin/admin-settings.php:107 inc/admin/plugin-settings.php:35
+msgid "Currency"
+msgstr "Valuta"
+
+#: addons/booking/inc/admin/admin-settings.php:129
+msgid "Select your Currency, more information"
+msgstr "Seleziona la tua valuta, ulteriori informazioni"
+
+#: addons/booking/index.php:40
+msgid "COURSE COMPLETED"
+msgstr "CORSO COMPLETATO"
+
+#: addons/booking/index.php:51 addons/booking/index.php:75 addons/booking/index.php:229 addons/booking/index.php:259
+msgid "BOOK"
+msgstr "PRENOTA"
+
+#: addons/booking/index.php:62
+msgid "ALREADY BOOKED"
+msgstr "GIÀ PRENOTATO"
+
+#: addons/booking/index.php:189
+msgid "Main Details ( Go to your account to change datas ) :"
+msgstr "Dettagli principali (Vai al tuo account per cambiare dati):"
+
+#: addons/booking/index.php:203 inc/shortcodes/nd-learning-register.php:27
+msgid "First Name"
+msgstr "Nome"
+
+#: addons/booking/index.php:205 inc/shortcodes/nd-learning-account.php:64 inc/shortcodes/nd-learning-register.php:31
+msgid "Last Name"
+msgstr "Cognome "
+
+#: addons/booking/index.php:215
+msgid "Other Details :"
+msgstr "Altri dettagli :"
+
+#: addons/booking/index.php:218
+msgid "Country"
+msgstr "Nazione"
+
+#: addons/booking/index.php:220
+msgid "Address"
+msgstr "Indirizzo"
+
+#: addons/booking/index.php:222
+msgid "City"
+msgstr "Città "
+
+#: addons/booking/index.php:224
+msgid "Zip Code"
+msgstr "Codice postale"
+
+#: addons/booking/index.php:227
+msgid "Book For Free :"
+msgstr "EBook:"
+
+#: addons/booking/index.php:256
+msgid "Pay With Paypal :"
+msgstr "Paga con Paypal"
+
+#: addons/booking/index.php:280
+msgid "cart"
+msgstr "Carrello"
+
+#: addons/booking/index.php:315
+msgid "ORDER"
+msgstr "ORDINA"
+
+#: addons/booking/index.php:329
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: addons/booking/index.php:340
+msgid "Method"
+msgstr "Metodo"
+
+#: addons/booking/index.php:350 templates/single-course.php:289
+msgid "Free"
+msgstr "Libero"
+
+#: addons/booking/index.php:354
+msgid "PayPal"
+msgstr "PayPal"
+
+#: addons/booking/index.php:364 addons/booking/shortcodes/order.php:149
+msgid "Total"
+msgstr "Totale"
+
+#: addons/booking/index.php:382
+msgid "BACK TO COURSES"
+msgstr "Torna ai corsi"
+
+#: addons/booking/index.php:473 addons/booking/index.php:557
+msgid "Thanks for your order"
+msgstr "grazie per il tuo ordine"
+
+#: addons/booking/index.php:475 addons/booking/index.php:559
+msgid "Price : "
+msgstr "Prezzo "
+
+#: addons/booking/index.php:475
+msgid " Qnt"
+msgstr " Qnt"
+
+#: addons/booking/index.php:476
+msgid "Payment Status : "
+msgstr "Stato del pagamento : "
+
+#: addons/booking/index.php:477
+msgid "Transiction ID : "
+msgstr "ID Transitorio: "
+
+#: addons/booking/index.php:479 addons/booking/index.php:561 addons/booking/index.php:744
+msgid "My Orders"
+msgstr "i miei ordini"
+
+#: addons/booking/index.php:519
+msgid "An error has occurred, contact the site administrator"
+msgstr "Si è verificato un errore, contattare l'amministratore del sito"
+
+#: addons/booking/index.php:521 addons/booking/index.php:603
+msgid "Back To Courses"
+msgstr "Torna ai corsi"
+
+#: addons/booking/index.php:558
+msgid "Item Name : "
+msgstr "Nome dell'elemento : "
+
+#: addons/booking/index.php:558
+msgid " with ID "
+msgstr " con ID "
+
+#: addons/booking/index.php:559 addons/compare/index.php:64 addons/search/preview-layout/grid/layout-1.php:82 addons/search/preview-layout/list/layout-1.php:72
+#: addons/visualcomposer/courses/layout/layout-3.php:120 addons/visualcomposer/courses/layout/layout-4.php:120 addons/visualcomposer/courses/layout/layout-5.php:76
+#: addons/visualcomposer/courses/layout/layout-6.php:62 addons/visualcomposer/courses/layout/layout-7.php:75 addons/visualcomposer/courses/layout/layout-8.php:133
+#: addons/visualcomposer/courses/layout/layout-9.php:133
+msgid "FREE"
+msgstr "GRATUITO"
+
+#: addons/booking/index.php:601
+msgid "You have not selected any course"
+msgstr "Non hai selezionato alcun corso"
+
+#: addons/booking/index.php:620 inc/shortcodes/nd-learning-account.php:217
+msgid "ALREADY A MEMBER"
+msgstr "sei già un utente registrato?"
+
+#: addons/booking/index.php:622 inc/shortcodes/nd-learning-account.php:219 inc/shortcodes/nd-learning-login.php:17
+msgid "Log In"
+msgstr "Accesso"
+
+#: addons/booking/index.php:633 inc/shortcodes/nd-learning-account.php:230
+msgid "I DO NOT HAVE AN ACCOUNT"
+msgstr "NON HO UN CONTO"
+
+#: addons/booking/index.php:635 inc/shortcodes/nd-learning-account.php:232 inc/shortcodes/nd-learning-register.php:42
+msgid "Register"
+msgstr "Registrazione"
+
+#: addons/booking/index.php:783
+msgid "My Premium Orders"
+msgstr "I miei ordini Premium"
+
+#: addons/booking/index.php:789 addons/booking/index.php:896
+msgid "You do not have any order"
+msgstr "Non è necessario alcun ordine"
+
+#: addons/booking/index.php:800 addons/booking/index.php:907 addons/bookmark/index.php:206 addons/compare/index.php:638 templates/single-teacher.php:77
+msgid "COURSE"
+msgstr "Corso"
+
+#: addons/booking/index.php:806 addons/booking/index.php:913 addons/bookmark/index.php:212 addons/compare/index.php:644 templates/single-teacher.php:83
+msgid "PRICE"
+msgstr "PREZZO"
+
+#: addons/booking/index.php:827
+msgid "Transiction : "
+msgstr "Transitorio: "
+
+#: addons/booking/index.php:841 addons/booking/index.php:946 templates/single-teacher.php:107
+msgid "VIEW"
+msgstr "Visualizza"
+
+#: addons/booking/index.php:890
+msgid "My Free Orders"
+msgstr "I miei ordini gratuiti"
+
+#: addons/booking/index.php:981 addons/booking/index.php:1046
+msgid "Attendees"
+msgstr "I partecipanti"
+
+#: addons/booking/index.php:1023
+msgid "Course Attendees"
+msgstr "I partecipanti del corso"
+
+#: addons/booking/index.php:1030
+msgid "Still no participant"
+msgstr "Ancora nessun partecipante"
+
+#: addons/booking/index.php:1060
+msgid "Available"
+msgstr "A disposizione"
+
+#: addons/booking/index.php:1074
+msgid "Maximum"
+msgstr "Massimo"
+
+#: addons/booking/shortcodes/order.php:18
+msgid "Order Page"
+msgstr "Order Pagina"
+
+#: addons/booking/shortcodes/order.php:36
+msgid "Select the page where you have added the shortcode [nd_learning_order]"
+msgstr "Selezionare la pagina in cui si è aggiunto il shortcode [nd_learning_order]"
+
+#: addons/booking/shortcodes/order.php:94 addons/booking/shortcodes/order.php:102 addons/booking/shortcodes/order.php:110 addons/booking/shortcodes/order.php:118
+msgid "Free Course"
+msgstr "Corso gratuito"
+
+#: addons/booking/shortcodes/order.php:141
+msgid "Product"
+msgstr "Prodotto"
+
+#: addons/booking/shortcodes/order.php:146
+msgid "Qnt"
+msgstr "Qnt"
+
+#: addons/booking/shortcodes/order.php:196
+msgid "ORDER DETAILS WITH ID : "
+msgstr "DETTAGLI ordine con ID: "
+
+#: addons/booking/shortcodes/order.php:208
+msgid "Order Date"
+msgstr "Data dell'ordine"
+
+#: addons/booking/shortcodes/order.php:216 addons/dashboard/include/premium-orders.php:89
+msgid "Payment Status"
+msgstr "Stato del pagamento"
+
+#: addons/booking/shortcodes/order.php:224
+msgid "Payment Currency"
+msgstr "Valuta del Pagamento"
+
+#: addons/booking/shortcodes/order.php:232
+msgid "Email User / Email Payment"
+msgstr "E-mail utente / e-mail di pagamento"
+
+#: addons/booking/shortcodes/order.php:240
+msgid "Payment Transiction"
+msgstr "Transitorio di pagamento"
+
+#: addons/booking/shortcodes/order.php:248 addons/dashboard/include/free-orders.php:363 addons/dashboard/include/premium-orders.php:405
+msgid "User Country"
+msgstr "utente Paese"
+
+#: addons/booking/shortcodes/order.php:256 addons/dashboard/include/free-orders.php:373 addons/dashboard/include/premium-orders.php:415
+msgid "User Address"
+msgstr "Indirizzo utente"
+
+#: addons/booking/shortcodes/order.php:264
+msgid "User First and Last Name"
+msgstr "Primo utente e Nome"
+
+#: addons/booking/shortcodes/order.php:272 addons/dashboard/include/free-orders.php:403 addons/dashboard/include/premium-orders.php:445
+msgid "User City"
+msgstr "Città d'uso"
+
+#: addons/booking/shortcodes/order.php:287
+msgid "GO TO ACCOUNT PAGE"
+msgstr "Vai all'account PAGINA"
+
+#: addons/bookmark/index.php:63 addons/bookmark/index.php:72
+msgid "ALREADY ADDED"
+msgstr "GIÀ AGGIUNTO"
+
+#: addons/bookmark/index.php:80
+msgid "ADD TO MY BOOKMARK"
+msgstr "AGGIUNGI AI MIEI PREFERITI"
+
+#: addons/bookmark/index.php:95
+msgid "MAKE THE LOGIN FOR BOOKMARK"
+msgstr "FARE IL LOGIN PER SEGNALIBRO"
+
+#: addons/bookmark/index.php:146
+msgid "My Bookmark"
+msgstr "Il mio segnalibro"
+
+#: addons/bookmark/index.php:182
+msgid "My Favourite Courses"
+msgstr "I miei corsi preferite"
+
+#: addons/bookmark/index.php:189
+msgid "You do not have any course as a favorite"
+msgstr "Non è necessario alcun corso come preferito"
+
+#: addons/bookmark/index.php:237 addons/compare/index.php:671
+msgid "REMOVE"
+msgstr "Rimuovi"
+
+#: addons/comments/index.php:16
+msgid "Comments"
+msgstr "Commenti"
+
+#: addons/compare/index.php:25 addons/compare/index.php:621
+msgid "You do not have any course in compare"
+msgstr "Non è necessario alcun corso di confrontare"
+
+#: addons/compare/index.php:35
+msgid "COMPARE"
+msgstr "Confrontare"
+
+#: addons/compare/index.php:37
+msgid "Compare Courses"
+msgstr "Confronta Corsi"
+
+#: addons/compare/index.php:58 addons/search/preview-layout/grid/layout-1.php:76 addons/search/preview-layout/list/layout-1.php:66 addons/visualcomposer/courses/layout/layout-3.php:114
+#: addons/visualcomposer/courses/layout/layout-4.php:114 addons/visualcomposer/courses/layout/layout-5.php:70 addons/visualcomposer/courses/layout/layout-6.php:56
+#: addons/visualcomposer/courses/layout/layout-7.php:69 addons/visualcomposer/courses/layout/layout-8.php:127 addons/visualcomposer/courses/layout/layout-9.php:127
+msgid "COMPLETED"
+msgstr "CONCLUSO:"
+
+#: addons/compare/index.php:135
+msgid "ADD COURSE"
+msgstr "ADD CORSO"
+
+#: addons/compare/index.php:150 addons/compare/index.php:353 addons/dashboard/include/free-orders.php:219 addons/dashboard/include/free-orders.php:324
+#: addons/dashboard/include/premium-orders.php:219 addons/dashboard/include/premium-orders.php:328 addons/dashboard/include/reviews.php:222
+msgid "ID"
+msgstr "ID"
+
+#: addons/compare/index.php:151 addons/compare/index.php:354
+msgid "Course Name"
+msgstr "Nome del corso"
+
+#: addons/compare/index.php:152 addons/compare/index.php:355 addons/dashboard/include/premium-orders.php:86
+msgid "Price"
+msgstr "Prezzo"
+
+#: addons/compare/index.php:153 addons/compare/index.php:356 inc/metabox/mtb-courses.php:42
+msgid "Max Availability"
+msgstr "Max Disponibilità"
+
+#: addons/compare/index.php:154 addons/compare/index.php:357 addons/search/preview-layout/list/layout-1.php:124 templates/single-course.php:429
+msgid "Teacher"
+msgstr "Insegnante"
+
+#: addons/compare/index.php:155 addons/compare/index.php:358 inc/metabox/mtb-courses.php:142
+msgid "Start Date"
+msgstr "Data di inizio"
+
+#: addons/compare/index.php:156 addons/compare/index.php:359
+msgid "Level"
+msgstr "Livello"
+
+#: addons/compare/index.php:157 addons/compare/index.php:360 templates/single-course.php:449
+msgid "Category"
+msgstr "Categoria"
+
+#: addons/compare/index.php:158 addons/compare/index.php:361 inc/metabox/mtb-teachers.php:36
+msgid "Location"
+msgstr "Luogo"
+
+#: addons/compare/index.php:159 addons/compare/index.php:362
+msgid "Typology"
+msgstr "Tipologia"
+
+#: addons/compare/index.php:160 addons/compare/index.php:363
+msgid "Duration"
+msgstr "Durata"
+
+#: addons/compare/index.php:399
+msgid "Compare Page"
+msgstr "Confronta Pagina"
+
+#: addons/compare/index.php:417
+msgid "Select the page where you have added the shortcode [nd_learning_compare]"
+msgstr "Selezionare la pagina in cui si è aggiunto il shortcode [nd_learning_compare]"
+
+#: addons/compare/index.php:484 addons/compare/index.php:504
+msgid "ALREADY ADDED TO COMPARE"
+msgstr "Già aggiunto CONFRONTARE"
+
+#: addons/compare/index.php:495 addons/compare/index.php:718
+msgid "ALREADY 3 PRODUCTS"
+msgstr "Già 3 PRODOTTI"
+
+#: addons/compare/index.php:515
+msgid "ADD TO MY COMPARE"
+msgstr "AGGIUNGI AL MIO COMPARE"
+
+#: addons/compare/index.php:530
+msgid "MAKE THE LOGIN FOR COMPARE"
+msgstr "FARE IL LOGIN PER CONFRONTARE"
+
+#: addons/compare/index.php:580
+msgid "My Compare"
+msgstr "Il mio Confronto"
+
+#: addons/compare/index.php:615
+msgid "My Compare Courses"
+msgstr "I miei corsi confronta"
+
+#: addons/compare/index.php:683
+msgid "Go To Compare Page"
+msgstr "Vai alla comparazione pagina"
+
+#: addons/customizer/archive-courses/index.php:27 addons/customizer/archive-teachers/index.php:27
+msgid "Disable Header Section"
+msgstr "Disabilitare intestazione di sezione"
+
+#: addons/customizer/archive-courses/index.php:48
+msgid "Courses Header Image"
+msgstr "Corsi Header image"
+
+#: addons/customizer/archive-courses/index.php:68 addons/customizer/archive-teachers/index.php:68 inc/metabox/mtb-courses.php:276 inc/metabox/mtb-teachers.php:139
+msgid "Image Position"
+msgstr "Posizione immagine:"
+
+#: addons/customizer/archive-teachers/index.php:48
+msgid "Teachers Header Image"
+msgstr "Insegnanti Header Image"
+
+#: addons/customizer/index.php:11 addons/visualcomposer/categories/index.php:95 addons/visualcomposer/courses/index.php:116 addons/visualcomposer/search/index.php:243
+#: addons/visualcomposer/teachers/index.php:107 inc/admin/plugin-settings.php:7
+msgid "ND Learning"
+msgstr "Learning ND"
+
+#: addons/customizer/index.php:14
+msgid "Plugin Settings"
+msgstr "Impostazioni Plugin"
+
+#: addons/customizer/plugin-colors/index.php:31
+msgid "Green Color"
+msgstr "Colore verde"
+
+#: addons/customizer/plugin-colors/index.php:32
+msgid "Select color for your green elements"
+msgstr "Selezionare colore per gli elementi verdi"
+
+#: addons/customizer/plugin-colors/index.php:56
+msgid "Red Color"
+msgstr "Colore rosso"
+
+#: addons/customizer/plugin-colors/index.php:57
+msgid "Select color for your red elements"
+msgstr "Selezionare colore per gli elementi rossi"
+
+#: addons/customizer/plugin-colors/index.php:80
+msgid "Orange Color"
+msgstr "Colore arancione"
+
+#: addons/customizer/plugin-colors/index.php:81
+msgid "Select color for your orange elements"
+msgstr "Selezionare colore per gli elementi di colore arancione"
+
+#: addons/customizer/plugin-colors/index.php:104
+msgid "Greydark Color"
+msgstr "Greydark colori"
+
+#: addons/customizer/plugin-colors/index.php:105
+msgid "Select color for your greydark elements"
+msgstr "Selezionare colore per gli elementi greydark"
+
+#: addons/dashboard/include/free-orders.php:7 addons/dashboard/include/free-orders.php:437
+msgid "Free Orders"
+msgstr "ordini gratuiti"
+
+#: addons/dashboard/include/free-orders.php:84 addons/dashboard/include/premium-orders.php:84 addons/dashboard/include/reviews.php:86 addons/dashboard/include/reviews.php:345
+msgid "ID Order"
+msgstr "ID ordine"
+
+#: addons/dashboard/include/free-orders.php:85 addons/dashboard/include/premium-orders.php:85 addons/dashboard/include/reviews.php:85 addons/dashboard/include/reviews.php:336
+msgid "ID Course"
+msgstr "ID corso"
+
+#: addons/dashboard/include/free-orders.php:87 addons/dashboard/include/free-orders.php:344 addons/dashboard/include/premium-orders.php:87 addons/dashboard/include/premium-orders.php:358
+#: addons/dashboard/include/reviews.php:87 addons/dashboard/include/reviews.php:355 addons/search/preview-layout/list/layout-1.php:164
+msgid "Date"
+msgstr "Data"
+
+#: addons/dashboard/include/free-orders.php:93 addons/dashboard/include/reviews.php:93 addons/dashboard/include/reviews.php:364
+msgid "ID User"
+msgstr "User ID"
+
+#: addons/dashboard/include/free-orders.php:96 addons/dashboard/include/premium-orders.php:96 inc/shortcodes/nd-learning-account.php:59
+msgid "Name"
+msgstr "Nome"
+
+#: addons/dashboard/include/free-orders.php:97 addons/dashboard/include/premium-orders.php:97
+msgid "Surname"
+msgstr "Cognome"
+
+#: addons/dashboard/include/free-orders.php:134 addons/dashboard/include/premium-orders.php:134 addons/dashboard/include/reviews.php:137
+msgid "Edit"
+msgstr "Modifica"
+
+#: addons/dashboard/include/free-orders.php:138 addons/dashboard/include/premium-orders.php:138 addons/dashboard/include/reviews.php:141
+msgid "Delete"
+msgstr "Eliminare"
+
+#: addons/dashboard/include/free-orders.php:195 addons/dashboard/include/premium-orders.php:195 addons/dashboard/include/reviews.php:198
+msgid "Record Deleted"
+msgstr "record eliminato"
+
+#: addons/dashboard/include/free-orders.php:198 addons/dashboard/include/free-orders.php:283 addons/dashboard/include/premium-orders.php:198 addons/dashboard/include/premium-orders.php:287
+#: addons/dashboard/include/reviews.php:201 addons/dashboard/include/reviews.php:284
+msgid "Dismiss this notice."
+msgstr "Nascondi la notifica"
+
+#: addons/dashboard/include/free-orders.php:212 addons/dashboard/include/premium-orders.php:212 addons/dashboard/include/reviews.php:215
+msgid "Delete Record with ID : "
+msgstr "Elimina record con ID: "
+
+#: addons/dashboard/include/free-orders.php:230 addons/dashboard/include/premium-orders.php:230 addons/dashboard/include/reviews.php:233
+msgid "Confirm Delete"
+msgstr "Conferma Eliminazione"
+
+#: addons/dashboard/include/free-orders.php:280 addons/dashboard/include/premium-orders.php:284 addons/dashboard/include/reviews.php:281
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: addons/dashboard/include/free-orders.php:316 addons/dashboard/include/premium-orders.php:320 addons/dashboard/include/reviews.php:317
+msgid "Edit Record with ID : "
+msgstr "Modifica record con ID: "
+
+#: addons/dashboard/include/free-orders.php:335 addons/dashboard/include/premium-orders.php:339
+msgid "Id Course"
+msgstr "ID corso"
+
+#: addons/dashboard/include/free-orders.php:353 addons/dashboard/include/premium-orders.php:395
+msgid "Id User"
+msgstr "User Id"
+
+#: addons/dashboard/include/free-orders.php:383 addons/dashboard/include/premium-orders.php:425
+msgid "User First Name"
+msgstr "Nome Utente"
+
+#: addons/dashboard/include/free-orders.php:393 addons/dashboard/include/premium-orders.php:435
+msgid "User Last Name"
+msgstr "Utente Cognome"
+
+#: addons/dashboard/include/free-orders.php:418 addons/dashboard/include/premium-orders.php:460 addons/dashboard/include/reviews.php:398
+msgid "Save Changes"
+msgstr "Salva I Cambiamenti"
+
+#: addons/dashboard/include/premium-orders.php:7 addons/dashboard/include/premium-orders.php:479
+msgid "Premium Orders"
+msgstr "ordini Premium"
+
+#: addons/dashboard/include/premium-orders.php:348
+msgid "Course Price"
+msgstr "corso Prezzo"
+
+#: addons/dashboard/include/premium-orders.php:367
+msgid "Paypal Payment Status"
+msgstr "Paypal Stato pagamento"
+
+#: addons/dashboard/include/premium-orders.php:377
+msgid "Paypal Email"
+msgstr "PayPal Email"
+
+#: addons/dashboard/include/premium-orders.php:386
+msgid "Paypal Transition"
+msgstr "Paypal transizione"
+
+#: addons/dashboard/include/reviews.php:7 addons/dashboard/include/reviews.php:417
+msgid "Reviews List"
+msgstr "Recensioni List"
+
+#: addons/dashboard/include/reviews.php:84 addons/dashboard/include/reviews.php:325
+msgid "ID Review"
+msgstr "ID recensione"
+
+#: addons/dashboard/include/reviews.php:88 addons/dashboard/include/reviews.php:374
+msgid "Rating"
+msgstr "Valutazione"
+
+#: addons/dashboard/include/reviews.php:96 addons/dashboard/include/reviews.php:384
+msgid "Text Review"
+msgstr "recensione di testo"
+
+#: addons/documents/index.php:8 addons/documents/index.php:9 addons/documents/index.php:206
+msgid "Documents"
+msgstr "Documentazione"
+
+#: addons/documents/index.php:33 addons/documents/index.php:178
+msgid "Document Options"
+msgstr "Opzioni documento"
+
+#: addons/documents/index.php:54
+msgid "Sub Title"
+msgstr "Sottotitolo"
+
+#: addons/documents/index.php:57
+msgid "Button Color Preview"
+msgstr "Pulsante Anteprima di colore"
+
+#: addons/documents/index.php:71
+msgid "Icon Document"
+msgstr "icona documento"
+
+#: addons/documents/index.php:74 inc/metabox/mtb-courses.php:271 inc/metabox/mtb-teachers.php:134
+msgid "Upload"
+msgstr "Carica"
+
+#: addons/documents/index.php:137
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: addons/documents/index.php:141
+msgid "Public Document"
+msgstr "documento pubblico"
+
+#: addons/documents/index.php:142
+msgid "Private Document"
+msgstr "documento privato"
+
+#: addons/documents/index.php:200
+msgid "Title Tab"
+msgstr "Titolo Tab"
+
+#: addons/documents/index.php:203
+msgid "Title Tab Content"
+msgstr "Titolo Tab Content"
+
+#: addons/documents/index.php:208
+msgid "Start writing your document's name, this is an intuitive field"
+msgstr "Iniziare a scrivere il nome del documento, questo è un campo intuitiva"
+
+#: addons/documents/index.php:448
+msgid "PRIVATE"
+msgstr "Privato"
+
+#: addons/documents/index.php:452
+msgid "PREVIEW"
+msgstr "ANTEPRIMA"
+
+#: addons/follower/index.php:27
+msgid "FOLLOWING"
+msgstr "Seguente"
+
+#: addons/follower/index.php:38
+msgid "UNFOLLOWING"
+msgstr "Smettere di seguire"
+
+#: addons/follower/index.php:59 addons/follower/index.php:68
+msgid "FOLLOW ME"
+msgstr "Seguimi"
+
+#: addons/follower/index.php:92
+msgid "FOLLOWERS"
+msgstr "Seguaci"
+
+#: addons/follower/index.php:115
+msgid "My Followers"
+msgstr "I miei seguaci"
+
+#: addons/follower/index.php:146
+msgid "Any followers founded"
+msgstr "Qualsiasi seguaci fondata"
+
+#: addons/follower/index.php:326 addons/follower/index.php:363
+msgid "Teachers Followed"
+msgstr "Insegnanti seguiti"
+
+#: addons/follower/index.php:369
+msgid "You do not follow any teachers"
+msgstr "Non si segue alcun insegnanti"
+
+#: addons/follower/index.php:393 addons/visualcomposer/teachers/layout/layout-1.php:60 addons/visualcomposer/teachers/layout/layout-2.php:60
+#: addons/visualcomposer/teachers/layout/layout-3.php:60 addons/visualcomposer/teachers/layout/layout-4.php:60 templates/single-course.php:60 templates/single-course.php:170
+msgid "TEACHER"
+msgstr "Insegnante"
+
+#: addons/follower/index.php:415 addons/visualcomposer/teachers/layout/layout-1.php:184 addons/visualcomposer/teachers/layout/layout-4.php:186 templates/single-course.php:121
+#: templates/single-course.php:191
+msgid "VIEW PROFILE"
+msgstr "Vedi profilo"
+
+#: addons/googlecalendar/index.php:22
+msgid "ADD TO MY CALENDAR"
+msgstr "Aggiungi al mio calendario"
+
+#: addons/related-course/index.php:21
+msgid "Related Products"
+msgstr "Prodotti correlati"
+
+#: addons/review/index.php:19
+msgid "Leave a Review"
+msgstr "Lascia una recensione"
+
+#: addons/review/index.php:21
+msgid "Share your experience, your rating will be shown in the single course page."
+msgstr "Condividi la tua esperienza, il tuo voto sarà mostrato nella pagina singolo corso."
+
+#: addons/review/index.php:30
+msgid "5 Star"
+msgstr "5 stelle"
+
+#: addons/review/index.php:31
+msgid "4 Star"
+msgstr "4 stelle"
+
+#: addons/review/index.php:32
+msgid "3 Star"
+msgstr "3 stelle"
+
+#: addons/review/index.php:33
+msgid "2 Star"
+msgstr "2 stelle"
+
+#: addons/review/index.php:34
+msgid "1 Star"
+msgstr "1 stella"
+
+#: addons/review/index.php:37
+msgid "Insert here your review"
+msgstr "Inserisci qui la tua opinione"
+
+#: addons/review/index.php:39
+msgid "Rate Now"
+msgstr "Vota adesso"
+
+#: addons/review/index.php:51
+msgid "Rating has already been sent"
+msgstr "Valutazione è già stato inviato"
+
+#: addons/review/index.php:53
+msgid "It seems that your feedback has already been sent"
+msgstr "Sembra che la tua valutazione è già stato inviato"
+
+#: addons/review/index.php:55 addons/review/index.php:101
+msgid "My Account"
+msgstr "Il mio account"
+
+#: addons/review/index.php:97
+msgid "Thanks For Your Review"
+msgstr "Grazie per la tua recensione"
+
+#: addons/review/index.php:99
+msgid "Your rating will be visible in the single course page."
+msgstr "Il tuo voto sarà visibile nella pagina singolo corso."
+
+#: addons/review/index.php:152
+msgid "Reviews"
+msgstr "Recensioni"
+
+#: addons/review/index.php:184
+msgid "Course Reviews"
+msgstr "Recensioni dei corsi"
+
+#: addons/review/index.php:192
+msgid "Still no reviews"
+msgstr "Ancora recensioni"
+
+#: addons/review/index.php:215
+msgid "Ratings"
+msgstr "Valutazioni"
+
+#: addons/review/index.php:225
+msgid "5 Stars"
+msgstr "5 Stelle"
+
+#: addons/review/index.php:236
+msgid "4 Stars"
+msgstr "4 Stelle"
+
+#: addons/review/index.php:247
+msgid "3 Stars"
+msgstr "3 Stelle"
+
+#: addons/review/index.php:258
+msgid "2 Stars"
+msgstr "2 Stelle"
+
+#: addons/review/index.php:273
+msgid "1 Stars"
+msgstr "1 Stella"
+
+#: addons/review/index.php:367
+msgid "RATING"
+msgstr "Valutazione"
+
+#: addons/review/index.php:390
+msgid "My Reviews"
+msgstr "Le mie recensioni"
+
+#: addons/review/index.php:421
+msgid "Any review founded"
+msgstr "Qualsiasi revisione fondata"
+
+#: addons/review/index.php:429
+msgid "Teacher courses reviews"
+msgstr "recensioni insegnanti Corsi"
+
+#: addons/search/index.php:27 addons/visualcomposer/search/index.php:36 addons/visualcomposer/search/index.php:64
+msgid "All"
+msgstr "Tutti"
+
+#: addons/search/index.php:176
+msgid "results"
+msgstr "Risultati"
+
+#: addons/search/index.php:210 addons/visualcomposer/search/index.php:237 addons/visualcomposer/search/layout/layout-1.php:32 addons/visualcomposer/search/layout/layout-3.php:54
+msgid "Search"
+msgstr "Ricerca"
+
+#: addons/search/preview-layout/grid/layout-1.php:130 addons/search/preview-layout/list/layout-1.php:146 addons/visualcomposer/courses/layout/layout-3.php:168
+#: addons/visualcomposer/courses/layout/layout-4.php:159 addons/visualcomposer/courses/layout/layout-5.php:178 addons/visualcomposer/courses/layout/layout-7.php:189
+#: addons/visualcomposer/courses/layout/layout-8.php:172 addons/visualcomposer/courses/layout/layout-9.php:181
+msgid "Seats"
+msgstr "Posti"
+
+#: addons/search/preview-layout/list/layout-1.php:144
+msgid "Availability"
+msgstr "Disponibilit&agrave;"
+
+#: addons/visualcomposer/categories/index.php:89 inc/cpt/courses.php:46 inc/cpt/teachers.php:33
+msgid "Categories"
+msgstr "Categorie"
+
+#: addons/visualcomposer/categories/index.php:91
+msgid "Add Category"
+msgstr "Aggiungi categoria"
+
+#: addons/visualcomposer/categories/index.php:101 addons/visualcomposer/courses/index.php:122 addons/visualcomposer/search/index.php:249 addons/visualcomposer/teachers/index.php:113
+msgid "Layout"
+msgstr "Disposizione"
+
+#: addons/visualcomposer/categories/index.php:104 addons/visualcomposer/courses/index.php:125 addons/visualcomposer/search/index.php:252 addons/visualcomposer/teachers/index.php:116
+msgid "Choose the layout"
+msgstr "Scegli il layout"
+
+#: addons/visualcomposer/categories/index.php:108
+msgid "Image"
+msgstr "Immagine"
+
+#: addons/visualcomposer/categories/index.php:110 addons/visualcomposer/categories/index.php:116
+msgid "Select image from media library."
+msgstr "Seleziona un'immagine dalla libreria multimediale."
+
+#: addons/visualcomposer/categories/index.php:114
+msgid "Icon"
+msgstr "Icona"
+
+#: addons/visualcomposer/categories/index.php:121 inc/metabox/mtb-courses.php:159 inc/metabox/mtb-teachers.php:39
+msgid "Color"
+msgstr "Colore"
+
+#: addons/visualcomposer/categories/index.php:123
+msgid "Choose color"
+msgstr "Scegli il colore"
+
+#: addons/visualcomposer/categories/index.php:128 addons/visualcomposer/courses/index.php:165
+msgid "Taxonomy"
+msgstr "Tassonomia"
+
+#: addons/visualcomposer/categories/index.php:130 addons/visualcomposer/courses/index.php:167
+msgid "Insert the slug of your Taxonomy"
+msgstr "Inserire la lumaca della tassonomia"
+
+#: addons/visualcomposer/categories/index.php:135 addons/visualcomposer/courses/index.php:172
+msgid "Term Taxonomy"
+msgstr "termine della tassonomia"
+
+#: addons/visualcomposer/categories/index.php:137 addons/visualcomposer/courses/index.php:174
+msgid "Insert the slug of your Term Taxonomy"
+msgstr "Inserire la lumaca della Tassonomia Term"
+
+#: addons/visualcomposer/categories/index.php:142 addons/visualcomposer/courses/index.php:187 addons/visualcomposer/search/index.php:314 addons/visualcomposer/teachers/index.php:164
+msgid "Custom class"
+msgstr "classe personalizzata"
+
+#: addons/visualcomposer/categories/index.php:144 addons/visualcomposer/courses/index.php:189 addons/visualcomposer/search/index.php:316 addons/visualcomposer/teachers/index.php:166
+msgid "Insert custom class"
+msgstr "Inserire classe personalizzata"
+
+#: addons/visualcomposer/categories/layout/layout-2.php:19 addons/visualcomposer/search/layout/layout-3.php:26 templates/single-teacher.php:310
+msgid "COURSES"
+msgstr "CORSI"
+
+#: addons/visualcomposer/courses/index.php:110 inc/cpt/courses.php:8 inc/cpt/courses.php:9
+msgid "Courses"
+msgstr "corsi"
+
+#: addons/visualcomposer/courses/index.php:112
+msgid "Add Courses Post Grid"
+msgstr "Aggiungere corsi post griglia"
+
+#: addons/visualcomposer/courses/index.php:129 addons/visualcomposer/search/index.php:256 addons/visualcomposer/teachers/index.php:128
+msgid "Width"
+msgstr "Larghezza"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "Select Width"
+msgstr "selezionare Larghezza"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "20 %"
+msgstr "20%"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "25 %"
+msgstr "25%"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "33 %"
+msgstr "33%"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "50 %"
+msgstr "50%"
+
+#: addons/visualcomposer/courses/index.php:131 addons/visualcomposer/search/index.php:258 addons/visualcomposer/teachers/index.php:130
+msgid "100 %"
+msgstr "100 %"
+
+#: addons/visualcomposer/courses/index.php:132 addons/visualcomposer/search/index.php:259
+msgid "Select the width for course preview grid"
+msgstr "Selezionare la larghezza per il corso anteprima griglia"
+
+#: addons/visualcomposer/courses/index.php:137
+msgid "Qnt Courses"
+msgstr "Corsi Qnt"
+
+#: addons/visualcomposer/courses/index.php:139
+msgid "Insert the quantity of courses that you want display."
+msgstr "Inserire la quantità di corsi che si desidera visualizzazione."
+
+#: addons/visualcomposer/courses/index.php:143 addons/visualcomposer/teachers/index.php:142
+msgid "Order"
+msgstr "Ordine"
+
+#: addons/visualcomposer/courses/index.php:146 addons/visualcomposer/teachers/index.php:145
+msgid "Select the Order paramater, more info <a target='_blank' href='https://codex.wordpress.org/it:Riferimento_classi/WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+msgstr "Selezionare il paramater ordine, più informazioni <a target = '_ blank' href='https://codex.wordpress.org/it:Riferimento_classi/WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+
+#: addons/visualcomposer/courses/index.php:150 addons/visualcomposer/teachers/index.php:149
+msgid "Order By"
+msgstr "Ordinato d"
+
+#: addons/visualcomposer/courses/index.php:153 addons/visualcomposer/teachers/index.php:152
+msgid "Select the OrderBy paramater, more info <a target='_blank' href='https://codex.wordpress.org/it:Riferimento_classi/WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+msgstr "Selezionare il paramater OrderBy, ulteriori informazioni <a target = '_ blank' href='https://codex.wordpress.org/it:Riferimento_classi/WP_Query#Parametri_Order_.26_Orderby'>here</a>"
+
+#: addons/visualcomposer/courses/index.php:158
+msgid "ID Courses"
+msgstr "Corsi d'identità"
+
+#: addons/visualcomposer/courses/index.php:160
+msgid "Insert the id of the course that you want display ( NB: only one course )"
+msgstr "Inserire l'id del corso che si desidera display (NB: un solo corso)"
+
+#: addons/visualcomposer/courses/index.php:178
+msgid "Image Size"
+msgstr "Dimensioni immagine"
+
+#: addons/visualcomposer/courses/index.php:182
+msgid "Choose the image size that you want to use"
+msgstr "Scegliere le dimensioni dell'immagine che si desidera utilizzare"
+
+#: addons/visualcomposer/courses/layout/layout-1.php:81 addons/visualcomposer/courses/layout/layout-10.php:128 addons/visualcomposer/courses/layout/layout-2.php:106
+#: templates/archive-courses.php:197 templates/archive-teachers.php:184
+msgid "READ MORE"
+msgstr "Continua a leggere"
+
+#: addons/visualcomposer/search/index.php:92
+msgid "ALL"
+msgstr "TUTTI"
+
+#: addons/visualcomposer/search/index.php:239
+msgid "Add Advanced Search"
+msgstr "Aggiungere Ricerca Avanzata"
+
+#: addons/visualcomposer/search/index.php:264 inc/metabox/mtb-courses.php:289
+msgid "Title"
+msgstr "Titolo"
+
+#: addons/visualcomposer/search/index.php:266
+msgid "Insert the title"
+msgstr "Inserire il titolo"
+
+#: addons/visualcomposer/search/index.php:270
+msgid "Hide Level Field"
+msgstr "Hide livello Campo"
+
+#: addons/visualcomposer/search/index.php:272 addons/visualcomposer/search/index.php:279 addons/visualcomposer/search/index.php:286 addons/visualcomposer/search/index.php:293
+#: addons/visualcomposer/search/index.php:300 addons/visualcomposer/teachers/index.php:122
+msgid "Yes"
+msgstr "Si"
+
+#: addons/visualcomposer/search/index.php:273 addons/visualcomposer/search/index.php:280 addons/visualcomposer/search/index.php:287 addons/visualcomposer/search/index.php:294
+#: addons/visualcomposer/search/index.php:301
+msgid "Check if you want to hide this taxonomy"
+msgstr "Controllare se si desidera nascondere questa tassonomia"
+
+#: addons/visualcomposer/search/index.php:277
+msgid "Hide Category Field"
+msgstr "Nascondi categoria Campo"
+
+#: addons/visualcomposer/search/index.php:284
+msgid "Hide Location Field"
+msgstr "Hide Località Campo"
+
+#: addons/visualcomposer/search/index.php:291
+msgid "Hide Typology Field"
+msgstr "Nascondi Tipologia Campo"
+
+#: addons/visualcomposer/search/index.php:298
+msgid "Hide Duration Field"
+msgstr "Nascondi Durata Campo"
+
+#: addons/visualcomposer/search/index.php:306
+msgid "Label Bg Color"
+msgstr "Etichetta Bg colori"
+
+#: addons/visualcomposer/search/index.php:308
+msgid "Choose label bg color"
+msgstr "Scegli l'etichetta bg colore"
+
+#: addons/visualcomposer/search/layout/layout-2.php:32
+msgid "SEARCH"
+msgstr "RICERCA"
+
+#: addons/visualcomposer/teachers/index.php:101 inc/cpt/teachers.php:9 inc/cpt/teachers.php:10 templates/single-course.php:22
+msgid "Teachers"
+msgstr "Insegnanti"
+
+#: addons/visualcomposer/teachers/index.php:103
+msgid "Add Teachers Post Grid"
+msgstr "Aggiungere insegnanti Messaggio griglia"
+
+#: addons/visualcomposer/teachers/index.php:120
+msgid "White Title"
+msgstr "Bianco Titolo"
+
+#: addons/visualcomposer/teachers/index.php:123
+msgid "Check if you want to make the title white"
+msgstr "Controllare se si vuole fare il titolo bianco"
+
+#: addons/visualcomposer/teachers/index.php:131
+msgid "Select the width for post preview grid"
+msgstr "Selezionare la larghezza per la post anteprima griglia"
+
+#: addons/visualcomposer/teachers/index.php:136
+msgid "Qnt Posts"
+msgstr "Qnt Messaggi"
+
+#: addons/visualcomposer/teachers/index.php:138
+msgid "Insert the quantity of posts that you want display."
+msgstr "Inserire la quantità di messaggi che si desidera visualizzazione."
+
+#: addons/visualcomposer/teachers/index.php:157
+msgid "ID Posts"
+msgstr "ID Messaggi"
+
+#: addons/visualcomposer/teachers/index.php:159
+msgid "Insert the id of the post that you want display ( NB: only one post )"
+msgstr "Inserire l'id del post che si desidera display (NB: un solo post)"
+
+#: inc/admin/plugin-settings.php:27
+msgid "ND Learning Plugin Settings"
+msgstr "ND impostazioni del plugin di apprendimento"
+
+#: inc/admin/plugin-settings.php:38
+msgid "Insert the currency. Eg: $"
+msgstr "Inserire la moneta. Ad esempio: $"
+
+#: inc/admin/plugin-settings.php:43
+msgid "Remove Container"
+msgstr "rimuovere Container"
+
+#: inc/admin/plugin-settings.php:54
+msgid "If your theme does not need the default container of 1200px in template pages ( Single course/teacher and archives ) you can remove it by flagging the checkbox."
+msgstr "Se il tema non ha bisogno del contenitore predefinito di 1200px a pagine modello (Piatto unico / insegnante e archivi) è possibile rimuoverlo dal segnalando la casella di controllo."
+
+#: inc/admin/plugin-settings.php:59
+msgid "Account Page"
+msgstr "account Pagina"
+
+#: inc/admin/plugin-settings.php:77
+msgid "Select the page where you have added the shortcode [nd_learning_account]"
+msgstr "Selezionare la pagina in cui si è aggiunto il shortcode [nd_learning_account]"
+
+#: inc/cpt/courses.php:32
+msgid "Levels"
+msgstr "grafici,"
+
+#: inc/cpt/courses.php:60
+msgid "Locations"
+msgstr "Località"
+
+#: inc/cpt/courses.php:74
+msgid "Typologies"
+msgstr "tipologie"
+
+#: inc/cpt/courses.php:88
+msgid "Durations"
+msgstr "durate"
+
+#: inc/metabox/mtb-courses.php:8
+msgid "Course Options"
+msgstr "Opzioni del corso"
+
+#: inc/metabox/mtb-courses.php:39
+msgid "Price ( set 0 for free )"
+msgstr "Prezzo (set 0 gratis)"
+
+#: inc/metabox/mtb-courses.php:45
+msgid "Main Teacher"
+msgstr "Docente principale"
+
+#: inc/metabox/mtb-courses.php:72
+msgid "Other Teachers"
+msgstr "altri insegnanti"
+
+#: inc/metabox/mtb-courses.php:74
+msgid "Start writing your teacher's name, this is an intuitive field"
+msgstr "Iniziare a scrivere il nome del vostro insegnante, questo è un campo intuitiva"
+
+#: inc/metabox/mtb-courses.php:176 inc/metabox/mtb-teachers.php:53
+msgid "CF7 Form"
+msgstr "CF7 Form"
+
+#: inc/metabox/mtb-courses.php:248 inc/metabox/mtb-courses.php:268 inc/metabox/mtb-teachers.php:113 inc/metabox/mtb-teachers.php:131
+msgid "Header Image"
+msgstr "Immagine intestazione:"
+
+#: inc/metabox/mtb-courses.php:291
+msgid "Insert the title/slogan over the image"
+msgstr "Inserire il titolo / slogan sull'immagine"
+
+#: inc/metabox/mtb-social.php:8
+msgid "Teacher Social"
+msgstr "Maestro sociale"
+
+#: inc/metabox/mtb-social.php:34
+msgid "Facebook Url"
+msgstr "Indirizzo Facebook:"
+
+#: inc/metabox/mtb-social.php:37
+msgid "Twitter Url"
+msgstr "Indirizzo Twitter:"
+
+#: inc/metabox/mtb-social.php:40
+msgid "Instagram Url"
+msgstr "Instagram URL"
+
+#: inc/metabox/mtb-social.php:43
+msgid "Pinterest Url"
+msgstr "Pinterest URL"
+
+#: inc/metabox/mtb-social.php:46
+msgid "GooglePlus Url"
+msgstr "GooglePlus URL"
+
+#: inc/metabox/mtb-social.php:49
+msgid "Youtube Url"
+msgstr "URL di YouTube"
+
+#: inc/metabox/mtb-social.php:52
+msgid "Linkedin Url"
+msgstr "Linkedin URL"
+
+#: inc/metabox/mtb-social.php:55
+msgid "Vimeo Url"
+msgstr "Vimeo URL"
+
+#: inc/metabox/mtb-social.php:58
+msgid "Behance Url"
+msgstr "Behance URL"
+
+#: inc/metabox/mtb-social.php:61
+msgid "Dribbble Url"
+msgstr "Dribbble URL"
+
+#: inc/metabox/mtb-social.php:64
+msgid "Github Url"
+msgstr "Github URL"
+
+#: inc/metabox/mtb-teachers.php:8
+msgid "Teacher Options"
+msgstr "Opzioni Insegnante"
+
+#: inc/metabox/mtb-teachers.php:33
+msgid "Role"
+msgstr "Ruolo"
+
+#: inc/metabox/mtb-teachers.php:233
+msgid "Teacher Info"
+msgstr "Info Teacher"
+
+#: inc/metabox/mtb-teachers.php:255
+msgid "Telephone"
+msgstr "Telefono"
+
+#: inc/metabox/mtb-teachers.php:258
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/metabox/mtb-teachers.php:261 inc/shortcodes/nd-learning-register.php:23
+msgid "Website"
+msgstr "Sito web"
+
+#: inc/shortcodes/nd-learning-account.php:108
+msgid "Url"
+msgstr "url"
+
+#: inc/shortcodes/nd-learning-account.php:119
+msgid "About Me"
+msgstr "Su di me"
+
+#: inc/shortcodes/nd-learning-account.php:135
+msgid "EDIT PROFILE"
+msgstr "Modifica Profilo"
+
+#: inc/shortcodes/nd-learning-account.php:139
+msgid "LOGOUT"
+msgstr "ESCI"
+
+#: inc/shortcodes/nd-learning-login.php:14
+msgid "Username"
+msgstr "Nome utente"
+
+#: inc/shortcodes/nd-learning-login.php:15
+msgid "Password"
+msgstr "Password"
+
+#: inc/shortcodes/nd-learning-login.php:16
+msgid "Remember Me"
+msgstr "Ricordati di me"
+
+#: inc/shortcodes/nd-learning-register.php:11
+msgid "Username *"
+msgstr "Nome Utente"
+
+#: inc/shortcodes/nd-learning-register.php:15
+msgid "Password *"
+msgstr "Parola d'ordine"
+
+#: inc/shortcodes/nd-learning-register.php:19
+msgid "Email *"
+msgstr "E-mail "
+
+#: inc/shortcodes/nd-learning-register.php:35
+msgid "Nickname"
+msgstr "Soprannome"
+
+#: inc/shortcodes/nd-learning-register.php:39
+msgid "About / Bio"
+msgstr "ABOUT&BIO"
+
+#: inc/shortcodes/nd-learning-register.php:95
+msgid "ERROR"
+msgstr "Errore"
+
+#: inc/shortcodes/nd-learning-register.php:120
+msgid "REGISTRATION COMPLETED"
+msgstr "iscrizione compilato"
+
+#: inc/shortcodes/nd-learning-register.php:120
+msgid "Please for make the login using the form on the left."
+msgstr "Si prega di fare il login utilizzando il modulo a sinistra."
+
+#: templates/archive-courses.php:229 templates/archive-teachers.php:216
+msgid "Prev"
+msgstr "Indietro"
+
+#: templates/archive-courses.php:230 templates/archive-teachers.php:217
+msgid "Next"
+msgstr "Successivo"
+
+#: templates/archive-courses.php:231 templates/archive-teachers.php:218
+msgid "Page"
+msgstr "Pagina"
+
+#: templates/single-course.php:15
+msgid "Descriptions"
+msgstr "descrizioni"
+
+#: templates/single-course.php:73
+msgid "Tags"
+msgstr "etichette"
+
+#: templates/single-course.php:88
+msgid "Our Main Teachers"
+msgstr "I nostri insegnanti principali"
+
+#: templates/single-course.php:97
+msgid "Any teachers for this course"
+msgstr "Eventuali docenti di questo corso"
+
+#: templates/single-course.php:276
+msgid "per person"
+msgstr "A testa"
+
+#: templates/single-course.php:615
+msgid "Price "
+msgstr "Prezzo "
+
+#: templates/single-course.php:624
+msgid "Max Availability "
+msgstr "Max Disponibilità "
+
+#: templates/single-course.php:642
+msgid "Difficulty "
+msgstr "Difficoltà "
+
+#: templates/single-course.php:660 templates/single-teacher.php:478
+msgid "Location "
+msgstr "luogo "
+
+#: templates/single-course.php:669
+msgid "Typology "
+msgstr "Tipologia "
+
+#: templates/single-course.php:733
+msgid "Question"
+msgstr "Domanda"
+
+#: templates/single-teacher.php:14
+msgid "My Courses"
+msgstr "I miei corsi"
+
+#: templates/single-teacher.php:121
+msgid "Any courses assigned"
+msgstr "Eventuali corsi assegnati"
+
+#: templates/single-teacher.php:290
+msgid "MESSAGE ME"
+msgstr "MESSAGGIAMI"
+
+#: templates/single-teacher.php:442
+msgid "Mail "
+msgstr "posta "
+
+#: templates/single-teacher.php:451
+msgid "Phone "
+msgstr "Telefono "
+
+#: templates/single-teacher.php:460
+msgid "Skype "
+msgstr "Skype "
+
+#: templates/single-teacher.php:469
+msgid "Web "
+msgstr "web "
+
+#: templates/single-teacher.php:540
+msgid "Contact Me"
+msgstr "Contattami"
