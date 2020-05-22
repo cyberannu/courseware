@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "13.234.70.140",
+  "port": "22",
+  "target": "/home/bitnami/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ubuntu",
+  "keyfile": "C:\\Users\\Annuniti\\Documents\\wordpress-private.ppk",
+  "watch": [],
+  "transport": "scp"
+}
