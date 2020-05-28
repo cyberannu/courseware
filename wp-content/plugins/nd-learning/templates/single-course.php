@@ -35,7 +35,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 	//get variables
 	$nd_learning_content_course = do_shortcode(get_the_content());
-	
+
 	//teacher informations
 	$nd_learning_meta_box_teachers = get_post_meta( get_the_ID(), 'nd_learning_meta_box_teachers', true );
 
@@ -43,7 +43,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
     $nd_learning_teacher_name = get_the_title($nd_learning_meta_box_teacher_id);
     $nd_learning_teacher_permalink = get_permalink($nd_learning_meta_box_teacher_id);
     $nd_learning_teacher_excerpt = get_the_excerpt($nd_learning_meta_box_teacher_id);
-    
+
     //image teacher
     $nd_learning_output_image_teacher = '';
 	$nd_learning_teacher_image_id = get_post_thumbnail_id( $nd_learning_meta_box_teacher_id );
@@ -52,7 +52,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 	  $nd_learning_output_image_teacher .= '
 	  <img alt="" class="nd_learning_single_course_page_teachers_image nd_learning_width_50_all_iphone nd_learning_margin_right_20 nd_learning_border_radius_100_percentage " width="100" src="'.$nd_learning_teacher_image_attributes[0].'">';
 	}
-	
+
 	//metabox teacher
 	$nd_learning_meta_box_teacher_color = get_post_meta( $nd_learning_meta_box_teacher_id, 'nd_learning_meta_box_teacher_color', true );
 	if ( $nd_learning_meta_box_teacher_color == '' ) { $nd_learning_meta_box_teacher_color = '#000'; }
@@ -63,7 +63,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 
 	$nd_learning_default_tabs_content .= '
-	
+
 		<div class="nd_learning_section" id="nd_learning_single_course_description">
 			<div class="nd_learning_section nd_learning_height_40"></div>
 			'.$nd_learning_content_course.'
@@ -75,9 +75,9 @@ function nd_learning_single_course_add_default_tab_list_content(){
 			';
 
 			echo $nd_learning_default_tabs_content;
-			
+
 			//custom hook
-  			do_action("nd_learning_single_course_end_default_tab"); 
+  			do_action("nd_learning_single_course_end_default_tab");
 
 
 		$nd_learning_default_tabs_content = '</div>
@@ -90,15 +90,15 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
             <div class="nd_learning_section">';
 
-            	
+
             	//START ALL TEACHERS
             	if ($nd_learning_meta_box_teacher_id == ''){
-            		
+
             		$nd_learning_default_tabs_content .= __('Any teachers for this course','nd-learning');
-            	
+
             	}else{
 
-            		
+
             		//START MAIN TEACHER
             		$nd_learning_default_tabs_content .= '
 
@@ -107,7 +107,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 
 		                    <div class="nd_learning_display_table nd_learning_float_left">
-		                                
+
 		                        <div class="nd_learning_display_table_cell nd_learning_vertical_align_middle">
 		                        	'.$nd_learning_output_image_teacher.'
 		                        </div>
@@ -120,16 +120,16 @@ function nd_learning_single_course_add_default_tab_list_content(){
 		                            <a style="background-color:'.$nd_learning_meta_box_teacher_color.';" class="nd_learning_single_course_page_main_teacher_btn nd_learning_display_inline_block nd_learning_color_white_important nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_3 nd_learning_font_size_13" href="'.$nd_learning_teacher_permalink.'">
 		                            	'.__('VIEW PROFILE','nd-learning').'
 		                            </a>
-		                          
+
 
 		                        </div>
 
 		                    </div>
-		            
+
 		                    <div class="nd_learning_section nd_learning_height_20"></div>
 
 		                    <p class="nd_learning_section">'.$nd_learning_teacher_excerpt.'</p>
-		                    
+
 
 		                </div>
 		                <!--END teacher-->';
@@ -145,9 +145,9 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 		            		//start cicle for display all teachers
 		            		for ($nd_learning_meta_box_teachers_array_i = 0; $nd_learning_meta_box_teachers_array_i < count($nd_learning_meta_box_teachers_array)-1; $nd_learning_meta_box_teachers_array_i++) {
-							    
+
 							    $nd_learning_page_by_path = get_page_by_path($nd_learning_meta_box_teachers_array[$nd_learning_meta_box_teachers_array_i],OBJECT,'teachers');
-							    
+
 							    //info teacher
 							    $nd_learning_teacher_id = $nd_learning_page_by_path->ID;
 							    $nd_learning_teacher_name = get_the_title($nd_learning_teacher_id);
@@ -162,7 +162,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 								  $nd_learning_output_image_teacher .= '
 								  <img alt="" class="nd_learning_single_course_page_teachers_image nd_learning_width_50_all_iphone nd_learning_margin_right_20 nd_learning_border_radius_100_percentage " width="100" src="'.$nd_learning_teacher_image_attributes[0].'">';
 								}
-								
+
 								//metabox teacher
 								$nd_learning_meta_box_teacher_color = get_post_meta( $nd_learning_teacher_id, 'nd_learning_meta_box_teacher_color', true );
 								if ( $nd_learning_meta_box_teacher_color == '' ) { $nd_learning_meta_box_teacher_color = '#000'; }
@@ -177,7 +177,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 
 				                    <div class="nd_learning_display_table nd_learning_float_left">
-				                                
+
 				                        <div class="nd_learning_display_table_cell nd_learning_vertical_align_middle">
 				                        	'.$nd_learning_output_image_teacher.'
 				                        </div>
@@ -190,16 +190,16 @@ function nd_learning_single_course_add_default_tab_list_content(){
 				                            <a style="background-color:'.$nd_learning_meta_box_teacher_color.';" class="nd_learning_single_course_page_teachers_btn nd_learning_display_inline_block nd_learning_color_white_important nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_3 nd_learning_font_size_13" href="'.$nd_learning_teacher_permalink.'">
 				                            	'.__('VIEW PROFILE','nd-learning').'
 				                            </a>
-				                          
+
 
 				                        </div>
 
 				                    </div>
-				            
+
 				                    <div class="nd_learning_section nd_learning_height_20"></div>
 
 				                    <p class="nd_learning_section">'.$nd_learning_teacher_excerpt.'</p>
-				                    
+
 
 				                </div>
 				                <!--END teacher-->';
@@ -211,7 +211,7 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
             	}
             	//END ALL TEACHERS
-                
+
 
 
             $nd_learning_default_tabs_content .= '</div>
@@ -232,8 +232,8 @@ function nd_learning_single_course_add_default_tab_list_content(){
 
 
 
-<?php 
-	
+<?php
+
 
 //get layout
 $nd_learning_meta_box_course_page_layout = get_post_meta( get_the_ID(), 'nd_learning_meta_box_course_page_layout', true );
@@ -246,7 +246,7 @@ $nd_learning_meta_box_course_header_img_position = get_post_meta( get_the_ID(), 
 
 
 //start header image
-if ( $nd_learning_meta_box_course_header_img != '' ) { 
+if ( $nd_learning_meta_box_course_header_img != '' ) {
 
 	include "single-course-layout/header/".$nd_learning_meta_box_course_page_layout.".php";
 
@@ -271,7 +271,7 @@ if(have_posts()) :
 
 		//include tabs js
 		wp_enqueue_script('jquery-ui-tabs');
-		
+
 		//declare variables
 	    $nd_learning_terms_difficulty_course_results = '';
 	    $nd_learning_terms_category_course_results = '';
@@ -287,10 +287,10 @@ if(have_posts()) :
 
 	    //metabox
 	    $nd_learning_meta_box_price = get_post_meta( get_the_ID(), 'nd_learning_meta_box_price', true );
-	    if ( $nd_learning_meta_box_price == 0 ) { 
+	    if ( $nd_learning_meta_box_price == 0 ) {
 	        $nd_learning_meta_box_price = 'Free';
-	    } else { 
-	        $nd_learning_meta_box_price = $nd_learning_meta_box_price.' '.$nd_learning_currency; 
+	    } else {
+	        $nd_learning_meta_box_price = $nd_learning_meta_box_price.' '.$nd_learning_currency;
 	    }
 
 	    $nd_learning_meta_box_max_availability = get_post_meta( get_the_ID(), 'nd_learning_meta_box_max_availability', true );
@@ -306,7 +306,7 @@ if(have_posts()) :
 		$nd_learning_teacher_image_id = get_post_thumbnail_id( $nd_learning_meta_box_teacher_id );
 		$nd_learning_teacher_image_attributes = wp_get_attachment_image_src( $nd_learning_teacher_image_id, 'large' );
 
-	   
+
 	    //taxonomies
 	    $nd_learning_terms_difficulty_course = wp_get_post_terms( get_the_ID(), 'difficulty-level-course', array("fields" => "all"));
 	    $nd_learning_terms_category_course = wp_get_post_terms( get_the_ID(), 'category-course', array("fields" => "all"));
@@ -320,7 +320,7 @@ if(have_posts()) :
 	    foreach($nd_learning_terms_typology_course as $nd_learning_term_typology_course) { $nd_learning_terms_typology_course_results .= $nd_learning_term_typology_course->name.' '; }
 	    foreach($nd_learning_terms_duration_course as $nd_learning_term_duration_course) { $nd_learning_terms_duration_course_results .= $nd_learning_term_duration_course->name.' '; }
 
-	    
+
 	  	$nd_learning_result = '';
 
 
@@ -329,7 +329,7 @@ if(have_posts()) :
 
 	  		$nd_learning_result .= '
 	  			<style>
-	  				
+
 	  				#nd_learning_single_course_page_title,
 	  				#nd_learning_single_course_page_title_space { display:none; }
 
@@ -393,16 +393,16 @@ if(have_posts()) :
 						border:1px solid #f1f1f1;
 						border-radius:4px;
 						margin-right:10px;
-					} 
+					}
 					.nd_learning_tabs ul li h4 a{
 						padding:8px 12px;
-					} 
+					}
 					.nd_learning_tabs ul li h4{
 						font-size:14px;
-					} 
+					}
 					.nd_learning_tabs ul{
 						border-bottom-width:0px;
-					} 
+					}
 
 					.nd_learning_tabs .ui-tabs-active.ui-state-active {
 						box-shadow:none;
@@ -427,10 +427,10 @@ if(have_posts()) :
 
 	  			</style>
 	  		';
-	  		
+
 
 	  	}
-	    
+
 	    $nd_learning_result .= '
 
 
@@ -439,16 +439,16 @@ if(have_posts()) :
 
 	    	<div class="nd_learning_section">
 
-	    		<div id="nd_learning_single_course_page_left_content" class="nd_learning_width_66_percentage nd_learning_width_100_percentage_responsive nd_learning_float_left nd_learning_padding_15 nd_learning_box_sizing_border_box">';
+	    		<div id="nd_learning_single_course_page_left_content" class="nd_learning_width_100_percentage_responsive nd_learning_float_left nd_learning_padding_15 nd_learning_box_sizing_border_box">';
 
 	    			echo $nd_learning_result;
 
 	    			//custom hook
-  					do_action("nd_learning_start_single_course_page");		
+  					do_action("nd_learning_start_single_course_page");
 
 	    $nd_learning_result = '
 
-	    			
+
 
 	    			<h1 id="nd_learning_single_course_page_title">'.$nd_learning_title_course.'</h1>
 	    			<div id="nd_learning_single_course_page_title_space" class="nd_learning_section nd_learning_height_20"></div>
@@ -459,7 +459,7 @@ if(have_posts()) :
 
 	    				<div id="nd_learning_single_course_info_course_teacher" class="nd_learning_width_25_percentage nd_learning_width_50_percentage_all_iphone nd_learning_float_left">
 						    <div class="nd_learning_display_table nd_learning_float_left">
-						        
+
 						        <div class="nd_learning_display_table_cell nd_learning_vertical_align_middle">
 						            <img alt="" class="nd_learning_margin_right_10 nd_learning_float_left nd_learning_border_radius_100_percentage" width="40" height="40" src="'.$nd_learning_teacher_image_attributes[0].'">
 						        </div>
@@ -470,7 +470,7 @@ if(have_posts()) :
 						            <h5 class="">'.$nd_learning_teacher_name.'</h5>
 						        </div>
 
-						    </div> 
+						    </div>
 						</div>
 
 
@@ -479,7 +479,7 @@ if(have_posts()) :
 
 						    <div class="nd_learning_section nd_learning_height_5"></div>
 						    <div class="nd_learning_display_table nd_learning_float_left">
-						        
+
 						        <div class="nd_learning_display_table_cell nd_learning_vertical_align_middle">
 						            <img alt="" class="nd_learning_margin_right_10 nd_learning_float_left" width="30" height="30" src="'.esc_url(plugins_url('icon-category.svg', __FILE__ )).'">
 						        </div>
@@ -490,7 +490,7 @@ if(have_posts()) :
 						            <h5 class="">'.$nd_learning_terms_category_course_results.'</h5>
 						        </div>
 
-						    </div> 
+						    </div>
 						</div>
 
 
@@ -499,10 +499,10 @@ if(have_posts()) :
 
 						    <div class="nd_learning_section nd_learning_height_5"></div>
 						    <div class="nd_learning_section nd_learning_height_5"></div>
-						    
+
 						    <div class="nd_learning_display_table nd_learning_float_right">
 						        <a class="nd_learning_cursor_pointer" onclick="window.print()"><img alt="" class="" width="30" height="30" src="'.esc_url(plugins_url('icon-print-grey.svg', __FILE__ )).'"></a>
-						    </div> 
+						    </div>
 						</div>
 
 
@@ -512,7 +512,7 @@ if(have_posts()) :
 	    			<div class="nd_learning_section nd_learning_height_20"></div>
 	    			';
 
-	    			
+
 
 
 	    			//image
@@ -525,12 +525,12 @@ if(have_posts()) :
 				      $nd_learning_result .= '
 
 						<div class="nd_learning_section nd_learning_position_relative">
-						                                
+
 							<img id="nd_learning_single_course_page_img" alt="" class="nd_learning_section" src="'.$nd_learning_image_src.'">
 
 							<div id="nd_learning_single_course_page_img_gradient" class="nd_learning_bg_greydark_alpha_gradient nd_learning_position_absolute nd_learning_left_0 nd_learning_height_100_percentage nd_learning_width_100_percentage nd_learning_padding_20 nd_learning_box_sizing_border_box">
 							    <div class="nd_learning_position_absolute nd_learning_bottom_20">';
-							       
+
 
 							    //bookmark function
 						        if (function_exists('nd_learning_add_bookmark_button')) { $nd_learning_result .= nd_learning_add_bookmark_button(); }
@@ -554,11 +554,11 @@ if(have_posts()) :
 
 
 
-	    			
+
 	    		   $nd_learning_result .= '<div class="nd_learning_section">';
 
 
-	    				echo $nd_learning_result;	
+	    				echo $nd_learning_result;
 
 	    				//custom hook
         				do_action("nd_learning_shortcode_single_metabox_details");
@@ -575,21 +575,21 @@ $nd_learning_result = '</div>
 						<ul class="nd_learning_list_style_none nd_learning_margin_0 nd_learning_padding_0 nd_learning_section nd_learning_border_bottom_2_solid_grey">';
 
 						echo $nd_learning_result;
-							 
+
 							//custom hook
 			    			do_action("nd_learning_single_course_tab_list");
-			    			do_action("nd_learning_single_course_tab_list_2"); 
-				    		
+			    			do_action("nd_learning_single_course_tab_list_2");
+
 
 						$nd_learning_result = '</ul>';
-					  
+
 
 					  	echo $nd_learning_result;
-					  	
+
 						//custom hook
-						do_action("nd_learning_single_course_tab_list_content"); 
-				    	
-					    
+						do_action("nd_learning_single_course_tab_list_content");
+
+
 			    	$nd_learning_result = '</div>
 			    	<!--END tabs-->';
 
@@ -609,197 +609,6 @@ $nd_learning_result = '</div>
   					do_action("nd_learning_end_single_course_page");
 
 
-$nd_learning_result = '</div>
-
-	    		<div id="nd_learning_single_course_page_right_content" class="nd_learning_width_33_percentage nd_learning_width_100_percentage_responsive nd_learning_float_left nd_learning_padding_15 nd_learning_box_sizing_border_box">';
-
-	    			echo $nd_learning_result;
-
-	    			//custom hook
-  					do_action("nd_learning_sidebar_single_course_page");
-
-
-  					$nd_learning_result = '<div id="nd_learning_single_course_page_start_cal" class="nd_learning_section nd_learning_border_1_solid_grey">';
-  						echo $nd_learning_result;
-
-	  					
-  						//hook
-	  					do_action("nd_learning_sidebar_single_course_page_2");
-
-
-	  					$nd_learning_result = '<div id="nd_learning_single_course_all_book_buttons" class="nd_learning_section nd_learning_bg_grey nd_learning_border_top_1_solid_grey nd_learning_padding_20 nd_learning_box_sizing_border_box">';
-	  					echo $nd_learning_result;
-
-	  					//hook
-	  					do_action("nd_learning_sidebar_single_course_page_3");
-
-	  				$nd_learning_result = '</div></div>
-	  				<div class="nd_learning_section nd_learning_height_20"></div>
-	  				';
-
-
-
-  					$nd_learning_result .= '
-
-  					<style>#nd_learning_single_course_table_info tr:last-child { border-bottom-width:0px; }</style>
-
-					<table id="nd_learning_single_course_table_info" class="nd_learning_section">
-                        <tbody>';
-                            
-
-                        if ($nd_learning_meta_box_price != '') {
-
-                        	$nd_learning_result .= '<tr id="nd_learning_single_course_table_info_price" class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" height="40" src="'.esc_url(plugins_url('icon-price-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Price ','nd-learning').' : '.$nd_learning_meta_box_price.'</h4></td>
-                            </tr>';
-
-                        }
-
-                        if ($nd_learning_meta_box_max_availability != '') {
-
-                        	$nd_learning_result .= '<tr id="nd_learning_single_course_table_info_max_availability" class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20"><img alt="" class="nd_learning_float_left" width="40" height="40" src="'.esc_url(plugins_url('icon-availability-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20"><h4 class=" nd_learning_text_align_right">'.__('Max Availability ','nd-learning').' : '.$nd_learning_meta_box_max_availability.'</h4></td>
-                            </tr>';
-
-                        }
-
-                        /*if ($nd_learning_meta_box_date != '') {
-
-                        	$nd_learning_result .= '<tr class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" src="'.esc_url(plugins_url('icon-date-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Date ','nd-learning').' : '.$nd_learning_meta_box_date.'</h4></td>
-                            </tr>';
-
-                        }*/
-
-                        if ($nd_learning_terms_difficulty_course_results != '') {
-
-                        	$nd_learning_result .= '<tr id="nd_learning_single_course_table_info_difficulty" class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" height="40" src="'.esc_url(plugins_url('icon-difficulty-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Difficulty ','nd-learning').' : '.$nd_learning_terms_difficulty_course_results.'</h4></td>
-                            </tr>';
-
-                        }
-
-                        /*if ($nd_learning_terms_category_course_results != '') {
-
-                        	$nd_learning_result .= '<tr class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" src="'.esc_url(plugins_url('icon-category-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Category ','nd-learning').' : '.$nd_learning_terms_category_course_results.'</h4></td>
-                            </tr>';
-
-                        }*/
-
-                        if ($nd_learning_terms_location_course_results != '') {
-
-                        	$nd_learning_result .= '<tr id="nd_learning_single_course_table_info_location" class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" height="40" src="'.esc_url(plugins_url('icon-location-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Location ','nd-learning').' : '.$nd_learning_terms_location_course_results.'</h4></td>
-                            </tr>';
-
-                        }
-
-                        if ($nd_learning_terms_typology_course_results != '') {
-
-                        	$nd_learning_result .= '<tr id="nd_learning_single_course_table_info_typology" class="nd_learning_border_bottom_2_solid_grey">
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" height="40" src="'.esc_url(plugins_url('icon-typology-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Typology ','nd-learning').' : '.$nd_learning_terms_typology_course_results.'</h4></td>
-                            </tr>';
-
-                        }
-
-                        /*if ($nd_learning_terms_duration_course_results != '') {
-
-                        	$nd_learning_result .= '<tr>
-                                <td class="nd_learning_padding_20 "><img alt="" class="nd_learning_float_left" width="40" src="'.esc_url(plugins_url('icon-duration-grey.svg', __FILE__ )).'"></td>
-                                <td class="nd_learning_padding_20 "><h4 class=" nd_learning_text_align_right">'.__('Duration ','nd-learning').' : '.$nd_learning_terms_duration_course_results.'</h4></td>
-                            </tr>';
-
-                        }*/
- 
-
-                        $nd_learning_result .= '</tbody>
-                    </table>';
-
-
-
-                    //START contact form
-                    if ( $nd_learning_meta_box_form != '' ) {
-
-                    	$nd_learning_result .= '
-
-
-
-                    		<style>
-
-						    #nd_learning_single_course_contact_form input[type="text"],
-						    #nd_learning_single_course_contact_form input[type="email"],
-						    #nd_learning_single_course_contact_form input[type="url"],
-						    #nd_learning_single_course_contact_form input[type="tel"],
-						    #nd_learning_single_course_contact_form input[type="number"],
-						    #nd_learning_single_course_contact_form input[type="date"],
-						    #nd_learning_single_course_contact_form input[type="checkbox"],
-						    #nd_learning_single_course_contact_form input[type="file"],
-						    #nd_learning_single_course_contact_form textarea,
-						    #nd_learning_single_course_contact_form label,
-						    #nd_learning_single_course_contact_form select
-						    {
-
-						      width: 100%;
-
-						    }
-
-						    #nd_learning_single_course_contact_form .wpcf7-response-output.wpcf7-validation-errors,
-						    #nd_learning_single_course_contact_form .wpcf7-response-output.wpcf7-mail-sent-ok
-						    {
-
-						    	float:left;
-						    	width:100%;
-						    	box-sizing:border-box;
-
-							}
-
-						    </style>
-
-
-
-	                    	<div class="nd_learning_section nd_learning_height_20"></div>
-	                    	<div id="nd_learning_single_course_contact_form_container" class="nd_learning_section nd_learning_bg_white nd_learning_border_1_solid_grey">
-
-	                          <div class="nd_learning_section nd_learning_padding_20 nd_learning_box_sizing_border_box nd_learning_bg_grey nd_learning_border_bottom_1_solid_grey nd_learning_text_align_center">
-	                            <h3 class=""><strong>'.__('Question','nd-learning').'</strong></h3>
-	                          </div>
-	                          <div id="nd_learning_single_course_contact_form" class="nd_learning_section nd_learning_padding_20 nd_learning_box_sizing_border_box">
-	                            
-	                          		'.do_shortcode('[contact-form-7 id="'.$nd_learning_meta_box_form.'"]').' 
-
-	                          </div>  
-
-	                        </div>
-
-
-
-	                    ';
-
-                    }
-                    //END contact form
-
-                    
-
-
-
-
-
-$nd_learning_result .= '</div>
-
-	    	</div>
-
-
-	    	<div class="nd_learning_section nd_learning_height_50"></div>
-
-	    ';
 
 
 	    //START BOTTOM BAR
@@ -814,13 +623,13 @@ $nd_learning_result .= '</div>
 
 	    ';
 	    //END BOTTOM BAR
-	    
 
 
-		echo $nd_learning_result;    
-	    
 
-	    
+		echo $nd_learning_result;
+
+
+
 	endwhile;
 endif;
 
@@ -847,19 +656,3 @@ do_action("nd_learning_single_course_page_before_footer");
 
 
 <?php get_footer( );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
